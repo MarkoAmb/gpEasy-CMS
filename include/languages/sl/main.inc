@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /*
 
@@ -10,7 +10,7 @@ Then check out http://ptrans.wikyblog.com/pt/gpEasy
 
 $langmessage = array(
 'LOGIN_REQUIRED'=>'Prijavite se za nadaljevanje',
-'LOGGED_OUT'=>'Sistem vas je odjavil.',
+'LOGGED_OUT'=>'Uspešno ste se odjavili! Želimo vam lep dan še naprej!',
 'configuration'=>'Nastavitve',
 'Current Configuration'=>'Trenutne nastavitve',
 'Appearance'=>'Izgled',
@@ -63,7 +63,7 @@ $langmessage = array(
 'Search Hidden Files'=>'Išči skrite datoteke',
 'search_no_results'=>'Žal, tvoje iskanje ni vrnilo nobenih zadetkov.',
 'Previous'=>'Predhodna',
-'Next'=>'nasl',
+'Next'=>'naslednja',
 'Highest Rated'=>'Najbolje ocenjeni',
 'Most Downloaded'=>'Največkrat prenešeni',
 'Recently Updated'=>'Pred kratkim posodobljeni',
@@ -74,7 +74,7 @@ $langmessage = array(
 'Not In Main Menu'=>'Ni v glavnem menuju',
 'Not In Any Menus'=>'Ni v nobenem Menu-ju',
 'SHOWING'=>'Prikazujem %1$s - %2$s od %3$s',
-'External Link'=>'Zunanji link',
+'External Link'=>'Zunanja povezava',
 'New_Window'=>'Odpri v novem oknu',
 'Page Info'=>'Informacije strani',
 'Menus'=>'Menu',
@@ -139,13 +139,25 @@ $langmessage = array(
 'details'=>'Podrobnosti',
 'site_locked'=>'Oprostite, stran je trenutno zaklenjena, ker jo ureja drug uporabnik. Morali boste počakati, da se uporabnik odjavi ali da zaklep poteče.',
 'lock_expires_in'=>'Zaklep bo potekel v %s minutah.',
-'passwordremindertext'=>'<p>Nekdo je zahteval novo geslo za %1$s (%2$s). Novo geslo za uporabnika "%3$s" je bilo ustvarjeno in poslano na "%4$s".</p> <p>Če tega niste zahtevali vi ali ste se spomnili gesla in ga ne želite spremeniti lahko to sporočilo ignorirate in še naprej uporabljate svoje staro geslo.</p>',
+'passwordremindertext'=>'<p>Pozdravljeni %3$s!</p>
+<br/>
+<p>Na spletnem portalu: %1$s smo prejeli zahtevo za ponastavitev gesla!</p>
+<br/><br/>
+<hr>
+<p>Vaše novo geslo se glasi: <b>"%4$s"</b></p>
+<hr>
+<br/><br/>
+<p>Z uporabo novega gesla se lahko prijavite preko povezave: %2$s</p>
+<br/><br/>
+<p>OPOMBA:</p>
+<p>V primeru, da spremembo gesla niste zahtevali vi ali pa ste se spomnili svojega gesla in ga ne želite spremeniti<br/>
+potem lahko to sporočilo preprosto zavržete in še naprej uporabljate svoje staro geslo.</p>',
 'JAVASCRIPT_REQ'=>'Za dostop do administracije potrebujete javascript.',
 'INCOMPAT_BROWSER'=>'Uporabljate nekompatibilni brskalnik.',
 'MODERN_BROWSER'=>'Preverite da uporabljate moderni brskalnik kot je Mozilla FireFox ali Google Chrome ter imate omogočen javascript.',
 'Browser Warning'=>'Opozorilo brskalnika',
 'Browser !Supported'=>'Vaš brskalnik ni popolnoma podprt. Prosimo, nadgradite na novejšo različico. ',
-'logged_in'=>'Sedaj ste prijavljeni',
+'logged_in'=>'Pozdravljeni, vaša prijava je uspela, želimo vam lep dan!',
 'site_map'=>'Seznam strani',
 'galleries'=>'Galerije',
 'file_name'=>'Ime datoteke',
